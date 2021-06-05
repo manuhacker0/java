@@ -7,9 +7,9 @@ public class Data {
     private int d = 8;
 
     public Data() {
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
+        System.out.println("default member : " + a);
+        System.out.println("public member : " + b);
+        System.out.println("protected member :" + c);
+        System.out.println("private member :" + d);
     }
 }

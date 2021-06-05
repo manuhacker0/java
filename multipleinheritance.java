@@ -1,7 +1,6 @@
 interface A5 {
     void disp();
 }
-
 class M {
     int a;
 
@@ -10,14 +9,12 @@ class M {
     }
 
 }
-
 class N extends M implements A5 {
     public void disp() {
         System.out.println("In child class");
     }
 
 }
-
 public class multipleinheritance {
     public static void main(String str[]) {
         N ob = new N();
